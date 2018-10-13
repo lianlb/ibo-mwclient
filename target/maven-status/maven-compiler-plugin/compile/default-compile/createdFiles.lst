@@ -1,0 +1,8 @@
+com\lianlb\mwclient\App.class
+com\lianlb\mwclient\MyException.class
+com\lianlb\mwclient\Math.class
+com\lianlb\mwclient\ServletListener.class
+com\lianlb\mwclient\WebConfig.class
+com\lianlb\mwclient\MyServletContainerInitializer.class
+com\lianlb\mwclient\BoApp.class
+com\lianlb\mwclient\MyService.class
