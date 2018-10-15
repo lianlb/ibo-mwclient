@@ -7,10 +7,10 @@
 	</appender>
 
 	<appender name="rollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<file>${catalina.base}/logs/hrcloud.log</file>
+		<file>logs/ibo.log</file>
 		<rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
 			<!-- rollover daily -->
-			<fileNamePattern>${catalina.base}/logs/hrcloud-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+			<fileNamePattern>logs/ibo-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
 			<!-- each file should be at most 10MB, keep 60 days worth of history, but at most 2GB -->
 			<maxFileSize>10MB</maxFileSize>
 			<maxHistory>30</maxHistory>
